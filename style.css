@@ -22,16 +22,18 @@ body {
 }
 h1 {
   font-family: "Bebas Neue", cursive;
-  font-size: 80px;
+  font-size: 90px;
   padding: 0;
   margin: 0;
+  font-weight: normal;
+  font-style: normal;
 }
 h2 {
   font-size: 60px;
   font-family: "Bebas Neue", cursive;
   font-weight: normal;
 }
-.project-area h2{
+.project-area h2 {
   margin: 140px 0;
   letter-spacing: 2px;
 }
@@ -66,7 +68,7 @@ p {
 section {
   height: 550px;
   padding-bottom: 150px;
-  border: 2px solid red;
+  border: 1px solid white;
 }
 .link-button {
   text-decoration: none;
@@ -91,6 +93,9 @@ section {
 .project-area h2 {
   text-align: center;
 }
+
+/* project-area  */
+
 .project-area {
   height: 900px;
   padding-bottom: 150px;
@@ -106,24 +111,79 @@ section {
 .project-width {
   width: 20%;
   float: left;
-  margin-left: 40px;
+  margin: 20px;
   padding: 3%;
+  display: inline-block;
 }
 .all-project {
   height: 500px;
-  width: 100%;
+  width: 92%;
   margin: 0 auto;
+  padding-left: 150px;
 }
 .project-area img {
   width: 100%;
 }
-.main-project{
-  width: 90%;
-  height: 600px;
-  border: 5px solid #000;
-  margin: 5px;
+.inquiry {
+  background-image: url("shapes/Group_33094_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 400px;
+  width: 1206px;
+  margin: 100px 500px 100px 340px;
 }
-div {
-  border: 2px solid red;
-  height: 100%;
+.inquiry h1 {
+  color: white;
+  margin: 150px 100px 150px 100px;
+  display: inline-block;
+}
+.inquiry a {
+  margin-left: 340px;
+}
+.stay-connect {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #696871;
+  margin-bottom: 0;
+  padding: 0;
+}
+.mail {
+  font-size: 45px;
+  color: #363958;
+  font-weight: bold;
+  text-align: center;
+}
+.icons {
+  width: 100%;
+  text-align: center;
+}
+.icons img {
+  margin: 0 0 20px 0;
+  width: 40%;
+}
+.behance {
+  float: left;
+  margin-left: 775px;
+}
+.dribble {
+  display: inline-block;
+  margin: 0px auto;
+}
+.instagram {
+  float: right;
+  margin-right: 775px;
+}
+footer {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  margin-top: 100px;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
 }
